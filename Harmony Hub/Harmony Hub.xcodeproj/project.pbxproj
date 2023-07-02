@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC55AA0F2A5104D200DDA625 /* Harmony_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */; };
+		EC55AA112A5104D200DDA625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA102A5104D200DDA625 /* ContentView.swift */; };
+		EC55AA132A5104D600DDA625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA122A5104D600DDA625 /* Assets.xcassets */; };
+		EC55AA162A5104D600DDA625 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA152A5104D600DDA625 /* Preview Assets.xcassets */; };
+		EC55AA202A5104D700DDA625 /* Harmony_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA1F2A5104D700DDA625 /* Harmony_HubTests.swift */; };
+		EC55AA2A2A5104D700DDA625 /* Harmony_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA292A5104D700DDA625 /* Harmony_HubUITests.swift */; };
+		EC55AA2C2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC55AA1C2A5104D700DDA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC55AA032A5104D200DDA625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC55AA0A2A5104D200DDA625;
+			remoteInfo = "Harmony Hub";
+		};
+		EC55AA262A5104D700DDA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC55AA032A5104D200DDA625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC55AA0A2A5104D200DDA625;
+			remoteInfo = "Harmony Hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC55AA0B2A5104D200DDA625 /* Harmony Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harmony Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubApp.swift; sourceTree = "<group>"; };
+		EC55AA102A5104D200DDA625 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC55AA122A5104D600DDA625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC55AA152A5104D600DDA625 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC55AA1B2A5104D700DDA625 /* Harmony HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmony HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55AA1F2A5104D700DDA625 /* Harmony_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubTests.swift; sourceTree = "<group>"; };
+		EC55AA252A5104D700DDA625 /* Harmony HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmony HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55AA292A5104D700DDA625 /* Harmony_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubUITests.swift; sourceTree = "<group>"; };
+		EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC55AA082A5104D200DDA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA182A5104D700DDA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA222A5104D700DDA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC55AA022A5104D200DDA625 = {
+			isa = PBXGroup;
+			children = (
+				EC55AA0D2A5104D200DDA625 /* Harmony Hub */,
+				EC55AA1E2A5104D700DDA625 /* Harmony HubTests */,
+				EC55AA282A5104D700DDA625 /* Harmony HubUITests */,
+				EC55AA0C2A5104D200DDA625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC55AA0C2A5104D200DDA625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA0B2A5104D200DDA625 /* Harmony Hub.app */,
+				EC55AA1B2A5104D700DDA625 /* Harmony HubTests.xctest */,
+				EC55AA252A5104D700DDA625 /* Harmony HubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC55AA0D2A5104D200DDA625 /* Harmony Hub */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */,
+				EC55AA102A5104D200DDA625 /* ContentView.swift */,
+				EC55AA122A5104D600DDA625 /* Assets.xcassets */,
+				EC55AA142A5104D600DDA625 /* Preview Content */,
+			);
+			path = "Harmony Hub";
+			sourceTree = "<group>";
+		};
+		EC55AA142A5104D600DDA625 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA152A5104D600DDA625 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC55AA1E2A5104D700DDA625 /* Harmony HubTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA1F2A5104D700DDA625 /* Harmony_HubTests.swift */,
+			);
+			path = "Harmony HubTests";
+			sourceTree = "<group>";
+		};
+		EC55AA282A5104D700DDA625 /* Harmony HubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA292A5104D700DDA625 /* Harmony_HubUITests.swift */,
+				EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */,
+			);
+			path = "Harmony HubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC55AA0A2A5104D200DDA625 /* Harmony Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC55AA2F2A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony Hub" */;
+			buildPhases = (
+				EC55AA072A5104D200DDA625 /* Sources */,
+				EC55AA082A5104D200DDA625 /* Frameworks */,
+				EC55AA092A5104D200DDA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harmony Hub";
+			productName = "Harmony Hub";
+			productReference = EC55AA0B2A5104D200DDA625 /* Harmony Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC55AA1A2A5104D700DDA625 /* Harmony HubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC55AA322A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony HubTests" */;
+			buildPhases = (
+				EC55AA172A5104D700DDA625 /* Sources */,
+				EC55AA182A5104D700DDA625 /* Frameworks */,
+				EC55AA192A5104D700DDA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC55AA1D2A5104D700DDA625 /* PBXTargetDependency */,
+			);
+			name = "Harmony HubTests";
+			productName = "Harmony HubTests";
+			productReference = EC55AA1B2A5104D700DDA625 /* Harmony HubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC55AA242A5104D700DDA625 /* Harmony HubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC55AA352A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony HubUITests" */;
+			buildPhases = (
+				EC55AA212A5104D700DDA625 /* Sources */,
+				EC55AA222A5104D700DDA625 /* Frameworks */,
+				EC55AA232A5104D700DDA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC55AA272A5104D700DDA625 /* PBXTargetDependency */,
+			);
+			name = "Harmony HubUITests";
+			productName = "Harmony HubUITests";
+			productReference = EC55AA252A5104D700DDA625 /* Harmony HubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC55AA032A5104D200DDA625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC55AA0A2A5104D200DDA625 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC55AA1A2A5104D700DDA625 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC55AA0A2A5104D200DDA625;
+					};
+					EC55AA242A5104D700DDA625 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC55AA0A2A5104D200DDA625;
+					};
+				};
+			};
+			buildConfigurationList = EC55AA062A5104D200DDA625 /* Build configuration list for PBXProject "Harmony Hub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC55AA022A5104D200DDA625;
+			productRefGroup = EC55AA0C2A5104D200DDA625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC55AA0A2A5104D200DDA625 /* Harmony Hub */,
+				EC55AA1A2A5104D700DDA625 /* Harmony HubTests */,
+				EC55AA242A5104D700DDA625 /* Harmony HubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC55AA092A5104D200DDA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55AA162A5104D600DDA625 /* Preview Assets.xcassets in Resources */,
+				EC55AA132A5104D600DDA625 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA192A5104D700DDA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA232A5104D700DDA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC55AA072A5104D200DDA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55AA112A5104D200DDA625 /* ContentView.swift in Sources */,
+				EC55AA0F2A5104D200DDA625 /* Harmony_HubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA172A5104D700DDA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55AA202A5104D700DDA625 /* Harmony_HubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55AA212A5104D700DDA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55AA2A2A5104D700DDA625 /* Harmony_HubUITests.swift in Sources */,
+				EC55AA2C2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC55AA1D2A5104D700DDA625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC55AA0A2A5104D200DDA625 /* Harmony Hub */;
+			targetProxy = EC55AA1C2A5104D700DDA625 /* PBXContainerItemProxy */;
+		};
+		EC55AA272A5104D700DDA625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC55AA0A2A5104D200DDA625 /* Harmony Hub */;
+			targetProxy = EC55AA262A5104D700DDA625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC55AA2D2A5104D700DDA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC55AA2E2A5104D700DDA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC55AA302A5104D700DDA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmony Hub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC55AA312A5104D700DDA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmony Hub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC55AA332A5104D700DDA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmony Hub.app/Harmony Hub";
+			};
+			name = Debug;
+		};
+		EC55AA342A5104D700DDA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmony Hub.app/Harmony Hub";
+			};
+			name = Release;
+		};
+		EC55AA362A5104D700DDA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harmony Hub";
+			};
+			name = Debug;
+		};
+		EC55AA372A5104D700DDA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bostoncream.Harmony-Hub.Harmony-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harmony Hub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC55AA062A5104D200DDA625 /* Build configuration list for PBXProject "Harmony Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55AA2D2A5104D700DDA625 /* Debug */,
+				EC55AA2E2A5104D700DDA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC55AA2F2A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55AA302A5104D700DDA625 /* Debug */,
+				EC55AA312A5104D700DDA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC55AA322A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony HubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55AA332A5104D700DDA625 /* Debug */,
+				EC55AA342A5104D700DDA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC55AA352A5104D700DDA625 /* Build configuration list for PBXNativeTarget "Harmony HubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55AA362A5104D700DDA625 /* Debug */,
+				EC55AA372A5104D700DDA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC55AA032A5104D200DDA625 /* Project object */;
+}
