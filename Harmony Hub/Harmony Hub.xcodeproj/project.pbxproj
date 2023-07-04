@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		EC55AA0F2A5104D200DDA625 /* Harmony_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */; };
 		EC55AA112A5104D200DDA625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA102A5104D200DDA625 /* ContentView.swift */; };
-		EC55AA132A5104D600DDA625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA122A5104D600DDA625 /* Assets.xcassets */; };
+		EC55AA132A5104D600DDA625 /* MainPalette.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA122A5104D600DDA625 /* MainPalette.xcassets */; };
 		EC55AA162A5104D600DDA625 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA152A5104D600DDA625 /* Preview Assets.xcassets */; };
 		EC55AA202A5104D700DDA625 /* Harmony_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA1F2A5104D700DDA625 /* Harmony_HubTests.swift */; };
 		EC55AA2A2A5104D700DDA625 /* Harmony_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA292A5104D700DDA625 /* Harmony_HubUITests.swift */; };
 		EC55AA2C2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */; };
+		EC55AA3A2A53A39400DDA625 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA392A53A39400DDA625 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,14 @@
 		EC55AA0B2A5104D200DDA625 /* Harmony Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harmony Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubApp.swift; sourceTree = "<group>"; };
 		EC55AA102A5104D200DDA625 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC55AA122A5104D600DDA625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC55AA122A5104D600DDA625 /* MainPalette.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainPalette.xcassets; sourceTree = "<group>"; };
 		EC55AA152A5104D600DDA625 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC55AA1B2A5104D700DDA625 /* Harmony HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmony HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55AA1F2A5104D700DDA625 /* Harmony_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubTests.swift; sourceTree = "<group>"; };
 		EC55AA252A5104D700DDA625 /* Harmony HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harmony HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55AA292A5104D700DDA625 /* Harmony_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubUITests.swift; sourceTree = "<group>"; };
 		EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_HubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC55AA392A53A39400DDA625 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,11 @@
 		EC55AA0D2A5104D200DDA625 /* Harmony Hub */ = {
 			isa = PBXGroup;
 			children = (
+				EC55AA3B2A53A6E900DDA625 /* Assets */,
+				EC55AA382A53A37000DDA625 /* Models */,
 				EC55AA0E2A5104D200DDA625 /* Harmony_HubApp.swift */,
 				EC55AA102A5104D200DDA625 /* ContentView.swift */,
-				EC55AA122A5104D600DDA625 /* Assets.xcassets */,
+				EC55AA122A5104D600DDA625 /* MainPalette.xcassets */,
 				EC55AA142A5104D600DDA625 /* Preview Content */,
 			);
 			path = "Harmony Hub";
@@ -125,6 +129,21 @@
 				EC55AA2B2A5104D700DDA625 /* Harmony_HubUITestsLaunchTests.swift */,
 			);
 			path = "Harmony HubUITests";
+			sourceTree = "<group>";
+		};
+		EC55AA382A53A37000DDA625 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC55AA392A53A39400DDA625 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC55AA3B2A53A6E900DDA625 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC55AA162A5104D600DDA625 /* Preview Assets.xcassets in Resources */,
-				EC55AA132A5104D600DDA625 /* Assets.xcassets in Resources */,
+				EC55AA132A5104D600DDA625 /* MainPalette.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			files = (
 				EC55AA112A5104D200DDA625 /* ContentView.swift in Sources */,
 				EC55AA0F2A5104D200DDA625 /* Harmony_HubApp.swift in Sources */,
+				EC55AA3A2A53A39400DDA625 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
