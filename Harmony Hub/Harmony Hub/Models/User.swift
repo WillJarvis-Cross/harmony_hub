@@ -10,7 +10,7 @@ import Foundation
 struct User {
     var username: String
     var palette = "main"
-    //
+    //Can add more colours in the future
     var allColours = {
         "main"; ["Primary", "PrimaryLight", "Secondary", "Tertiary"]
     }
