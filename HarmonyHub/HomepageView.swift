@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 struct HomepageView: View {
     var name:String = Auth.auth().currentUser!.displayName!
+    var user = Auth.auth().currentUser
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -28,7 +29,9 @@ struct HomepageView: View {
                             Spacer()
                             RoundedRectangle(cornerRadius: 25)
                                 .fill(.white)
+                                
                                 .frame(width: geometry.size.width, height: geometry.size.height*0.8)
+                                
                         }
                         VStack {
                             Spacer()

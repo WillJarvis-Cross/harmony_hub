@@ -2,11 +2,11 @@ import SwiftUI
 import Firebase
 
 struct ContentView: View {
-    @State private var isRootViewLoaded = false
+    @State private var isUserLoggedIn = false
 
     var body: some View {
         Group {
-            if (Auth.auth().currentUser != nil || isRootViewLoaded) {
+            if (isUserLoggedIn) {
                 // User is signed in.
                 NavigationView {
                     HomepageView()
@@ -18,14 +18,19 @@ struct ContentView: View {
                 }
             }
         }
+        .onAppear(perform: refreshRootView)
         .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("RefreshRootView"))) { _ in
             refreshRootView()
         }
     }
 
     func refreshRootView() {
-        // Perform refresh actions and update the state variable
-        isRootViewLoaded.toggle()
+        Auth.auth().currentUser?.reload(completion: { _ in
+                    DispatchQueue.main.async {
+                        isUserLoggedIn = Auth.auth().currentUser != nil
+                    }
+                })
+        
     }
 }
 

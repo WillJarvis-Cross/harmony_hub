@@ -65,7 +65,8 @@ struct SignUpView: View {
             if error != nil {
                 print(error?.localizedDescription ?? "")
                 print("DFYTFTFYTFYTFYTF")
-            } else {
+            }
+            else {
                 let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
                 changeRequest?.displayName = username
                 changeRequest?.commitChanges { error in
@@ -76,8 +77,10 @@ struct SignUpView: View {
                     else{
                         
                         print("Sucess with username")
+                        
                         presentationMode.wrappedValue.dismiss()
                                        NotificationCenter.default.post(name: NSNotification.Name("RefreshRootView"), object: nil)
+                                       
                     }
                   // ...
                 }
