@@ -23,6 +23,18 @@ struct LoginSignView: View {
                         .background(Color("Primary"))
                         .cornerRadius(10)})
                 
+                Button(action: {
+                    // Call the function to start Spotify authentication directly
+                    SpotifyLoginController().startSpotifyAuthentication()
+                }) {
+                    Text("Spotify Login")
+                        .font(.title)
+                        .frame(width: 100.0)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color("Primary"))
+                        .cornerRadius(10)
+                }
             }
             
             .padding()

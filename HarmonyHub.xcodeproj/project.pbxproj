@@ -37,6 +37,7 @@
 		BA7CEB912A53B4B300A49717 /* HarmonyHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB902A53B4B300A49717 /* HarmonyHubTests.swift */; };
 		BA7CEB9B2A53B4B300A49717 /* HarmonyHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB9A2A53B4B300A49717 /* HarmonyHubUITests.swift */; };
 		BA7CEB9D2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB9C2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift */; };
+		EC28F49D2A66355400E78C31 /* SpotifyLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28F49C2A66355400E78C31 /* SpotifyLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		BA7CEB962A53B4B300A49717 /* HarmonyHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7CEB9A2A53B4B300A49717 /* HarmonyHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHubUITests.swift; sourceTree = "<group>"; };
 		BA7CEB9C2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC28F49C2A66355400E78C31 /* SpotifyLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				BA4D13752A55574800C7A004 /* Email.swift */,
 				BA4D13732A554B4E00C7A004 /* LoginSignView.swift */,
 				BA4D139C2A55656000C7A004 /* LoginView.swift */,
+				EC28F49C2A66355400E78C31 /* SpotifyLogin.swift */,
 				BA7CEB832A53B4B300A49717 /* Assets.xcassets */,
 				BA7CEB852A53B4B300A49717 /* Preview Content */,
 			);
@@ -336,6 +339,7 @@
 				BA4D139D2A55656000C7A004 /* LoginView.swift in Sources */,
 				BA4D13522A53B8AB00C7A004 /* HomepageView.swift in Sources */,
 				BA4D13722A55497600C7A004 /* SignUpView.swift in Sources */,
+				EC28F49D2A66355400E78C31 /* SpotifyLogin.swift in Sources */,
 				BA7CEB822A53B4B200A49717 /* ContentView.swift in Sources */,
 				BA7CEB802A53B4B200A49717 /* HarmonyHubApp.swift in Sources */,
 				BA4D13742A554B4E00C7A004 /* LoginSignView.swift in Sources */,
