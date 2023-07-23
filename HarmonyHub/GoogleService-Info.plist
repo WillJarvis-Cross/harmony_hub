@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Your explanation for why you need location access even when the app is in the background.</string>
 	<key>CLIENT_ID</key>
 	<string>380044226376-kqtjebuc25njoeb36unm5gb6hv9j2j7l.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
@@ -30,5 +32,6 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:380044226376:ios:9beec7b50836d1ccafcd7d</string>
+    
 </dict>
 </plist>

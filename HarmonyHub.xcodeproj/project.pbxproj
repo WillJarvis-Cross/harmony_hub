@@ -30,6 +30,7 @@
 		BA4D13992A555E8000C7A004 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BA4D13982A555E8000C7A004 /* FirebaseStorage */; };
 		BA4D139B2A5563A500C7A004 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4D139A2A5563A400C7A004 /* GoogleService-Info.plist */; };
 		BA4D139D2A55656000C7A004 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D139C2A55656000C7A004 /* LoginView.swift */; };
+		BA6139C12A6D146100FC4287 /* Geohash in Frameworks */ = {isa = PBXBuildFile; productRef = BA6139C02A6D146100FC4287 /* Geohash */; };
 		BA7CEB802A53B4B200A49717 /* HarmonyHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB7F2A53B4B200A49717 /* HarmonyHubApp.swift */; };
 		BA7CEB822A53B4B200A49717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB812A53B4B200A49717 /* ContentView.swift */; };
 		BA7CEB842A53B4B300A49717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7CEB832A53B4B300A49717 /* Assets.xcassets */; };
@@ -37,6 +38,8 @@
 		BA7CEB912A53B4B300A49717 /* HarmonyHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB902A53B4B300A49717 /* HarmonyHubTests.swift */; };
 		BA7CEB9B2A53B4B300A49717 /* HarmonyHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB9A2A53B4B300A49717 /* HarmonyHubUITests.swift */; };
 		BA7CEB9D2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7CEB9C2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift */; };
+		BAE812572A6CDEA500D02F9E /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE812562A6CDEA500D02F9E /* FirestoreManager.swift */; };
+		BAE812592A6CE68200D02F9E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE812582A6CE68200D02F9E /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,8 @@
 		BA7CEB962A53B4B300A49717 /* HarmonyHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7CEB9A2A53B4B300A49717 /* HarmonyHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHubUITests.swift; sourceTree = "<group>"; };
 		BA7CEB9C2A53B4B300A49717 /* HarmonyHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAE812562A6CDEA500D02F9E /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		BAE812582A6CE68200D02F9E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6139C12A6D146100FC4287 /* Geohash in Frameworks */,
 				BA4D13932A555E8000C7A004 /* FirebasePerformance in Frameworks */,
 				BA4D13852A555E8000C7A004 /* FirebaseDatabaseSwift in Frameworks */,
 				BA4D13832A555E8000C7A004 /* FirebaseDatabase in Frameworks */,
@@ -142,6 +148,8 @@
 			children = (
 				BA4D139A2A5563A400C7A004 /* GoogleService-Info.plist */,
 				BA7CEB7F2A53B4B200A49717 /* HarmonyHubApp.swift */,
+				BAE812582A6CE68200D02F9E /* LocationManager.swift */,
+				BAE812562A6CDEA500D02F9E /* FirestoreManager.swift */,
 				BA7CEB812A53B4B200A49717 /* ContentView.swift */,
 				BA4D13512A53B8AB00C7A004 /* HomepageView.swift */,
 				BA4D13712A55497600C7A004 /* SignUpView.swift */,
@@ -213,6 +221,7 @@
 				BA4D13942A555E8000C7A004 /* FirebaseRemoteConfig */,
 				BA4D13962A555E8000C7A004 /* FirebaseRemoteConfigSwift */,
 				BA4D13982A555E8000C7A004 /* FirebaseStorage */,
+				BA6139C02A6D146100FC4287 /* Geohash */,
 			);
 			productName = HarmonyHub;
 			productReference = BA7CEB7C2A53B4B200A49717 /* HarmonyHub.app */;
@@ -288,6 +297,7 @@
 			mainGroup = BA7CEB732A53B4B200A49717;
 			packageReferences = (
 				BA4D13772A555E7F00C7A004 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BA6139BF2A6D146100FC4287 /* XCRemoteSwiftPackageReference "swift-geohash" */,
 			);
 			productRefGroup = BA7CEB7D2A53B4B200A49717 /* Products */;
 			projectDirPath = "";
@@ -339,6 +349,8 @@
 				BA7CEB822A53B4B200A49717 /* ContentView.swift in Sources */,
 				BA7CEB802A53B4B200A49717 /* HarmonyHubApp.swift in Sources */,
 				BA4D13742A554B4E00C7A004 /* LoginSignView.swift in Sources */,
+				BAE812572A6CDEA500D02F9E /* FirestoreManager.swift in Sources */,
+				BAE812592A6CE68200D02F9E /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +512,11 @@
 				DEVELOPMENT_TEAM = 8GQMJTGXNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarmonyHub/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = DSKDPSODKSPODKDSPOKDSPOKDPOSKDPOSKPD;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needs Location for AudioScape feature";
+				INFOPLIST_KEY_NSLocationUsageDescription = trtrtdtvdrtfdrftdr;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = pkfspsdokfpsdokfpsdkfp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -529,6 +546,11 @@
 				DEVELOPMENT_TEAM = 8GQMJTGXNS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarmonyHub/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = DSKDPSODKSPODKDSPOKDSPOKDPOSKDPOSKPD;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needs Location for AudioScape feature";
+				INFOPLIST_KEY_NSLocationUsageDescription = trtrtdtvdrtfdrftdr;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = pkfspsdokfpsdokfpsdkfp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -673,6 +695,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		BA6139BF2A6D146100FC4287 /* XCRemoteSwiftPackageReference "swift-geohash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emilioschepis/swift-geohash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -760,6 +790,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BA4D13772A555E7F00C7A004 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		BA6139C02A6D146100FC4287 /* Geohash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6139BF2A6D146100FC4287 /* XCRemoteSwiftPackageReference "swift-geohash" */;
+			productName = Geohash;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

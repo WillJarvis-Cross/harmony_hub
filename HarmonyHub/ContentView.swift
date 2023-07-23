@@ -3,10 +3,10 @@ import Firebase
 
 struct ContentView: View {
     @State private var isUserLoggedIn = false
-
+    
     var body: some View {
         Group {
-            if (isUserLoggedIn) {
+            if (Auth.auth().currentUser != nil || isUserLoggedIn) {
                 // User is signed in.
                 NavigationView {
                     HomepageView()
